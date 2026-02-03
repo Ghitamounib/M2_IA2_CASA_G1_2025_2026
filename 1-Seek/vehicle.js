@@ -14,7 +14,7 @@ class Vehicle {
     this.r = 16;
 
     // Pour comportement fuite
-    this.rayonPerception = 100;
+    this.rayonPerception = 200;
     this.oldMaxSpeed = this.maxSpeed;
     this.vitesseDeFuite = 10;
   }
