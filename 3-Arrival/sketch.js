@@ -86,7 +86,7 @@ function draw() {
       case "snake":
         if (index === 0) {
           // le premier véhicule suit la souris avec arrivée
-          steeringForce = vehicle.arrive(target);
+          steeringForce = vehicle.wander();
         } else {
           // les autres véhicules suivent le véhicule précédent avec arrivée
           let cible = vehicles[index - 1].pos;
